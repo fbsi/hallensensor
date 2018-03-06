@@ -1,4 +1,4 @@
 # hallensensor
-Projekt zur Anzeige des Belegungsstatuses einer Feuerwehr-Fahrzeughalle
+Projekt zur Anzeige des Belegungsstatus einer Feuerwehr-Fahrzeughalle
 
 Weiteres folgt
