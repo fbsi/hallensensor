@@ -2,8 +2,13 @@
 Projekt zur Anzeige des Belegungsstatus einer Feuerwehr-Fahrzeughalle
 
 Weiteres folgt
-# Hardware
+## Hardware
 Informationen zur Hardware
 
-# Steuerung
+## Steuerung
 Anleitung zur Steuerung
+> 192.178.2.179 
+aufrufen und über die html Seite die URLs aufrufen die eine entsprechende Steuerung veranlassen.
+
+## Installation
+
