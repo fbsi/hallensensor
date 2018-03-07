@@ -7,7 +7,8 @@ Informationen zur Hardware
 
 ## Steuerung
 Anleitung zur Steuerung
-> 192.178.2.179 
+> http://192.178.2.179 
+
 aufrufen und über die html Seite die URLs aufrufen die eine entsprechende Steuerung veranlassen.
 
 ## Installation
