@@ -2,5 +2,6 @@
 Projekt zur Anzeige des Belegungsstatus einer Feuerwehr-Fahrzeughalle
 
 Weiteres folgt
-###Steuerung
+Steuerung
+-------------
 Anleitung zur Steuerung
