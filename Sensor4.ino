@@ -97,6 +97,7 @@
         delay(5000);
  }
    void frei(){
+      digitalWrite(15, HIGH);
       digitalWrite(16, LOW);
       // Connecting to the remote host
    if (client.connect(dstip, dstport)) {
