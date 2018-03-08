@@ -105,7 +105,7 @@
      // Prepare the buffers
      char getbuf[96] = {0};
      char hostbuf[32] = {0};
-     sprintf(getbuf, "GET /1/ein", 102);
+     sprintf(getbuf, "GET /4/ein", 102);
      sprintf(hostbuf, "\n Host: %s\n\n", dsthost);
  
      // Send the data
@@ -133,7 +133,7 @@
      // Prepare the buffers
      char getbuf[96] = {0};
      char hostbuf[32] = {0};
-     sprintf(getbuf, "GET /1/ein", 100);
+     sprintf(getbuf, "GET /4/ein", 100);
      sprintf(hostbuf, "\n Host: %s\n\n", dsthost);
  
      // Send the data
