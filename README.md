@@ -1,5 +1,6 @@
 # /hallensensor
 Projekt zur Anzeige des Belegungsstatus einer Feuerwehr-Fahrzeughalle
+
 <img src="/Doku/20180308_111310.jpg" width="50%" height="50%">
 
 Weiteres folgt
