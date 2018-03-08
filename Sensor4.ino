@@ -97,15 +97,14 @@
         delay(5000);
  }
    void frei(){
-      digitalWrite(15, LOW);
-      digitalWrite(16, HIGH);
+      digitalWrite(16, LOW);
       // Connecting to the remote host
    if (client.connect(dstip, dstport)) {
  
      // Prepare the buffers
      char getbuf[96] = {0};
      char hostbuf[32] = {0};
-     sprintf(getbuf, "GET /4/ein", 102);
+     sprintf(getbuf, "GET /4/aus", 102);
      sprintf(hostbuf, "\n Host: %s\n\n", dsthost);
  
      // Send the data
@@ -121,12 +120,12 @@
      Serial.PGMprintln("... client connection failed!");
    }
  
-   delay(5000);
+   
     }
     
     void busy(){
-      digitalWrite(15, HIGH);
-      digitalWrite(16, LOW);
+      digitalWrite(15, LOW);
+      digitalWrite(16, HIGH);
       // Connecting to the remote host
    if (client.connect(dstip, dstport)) {
  
@@ -149,6 +148,6 @@
      Serial.PGMprintln("... client connection failed!");
    }
  
-   delay(5000);
+   
     }
    
